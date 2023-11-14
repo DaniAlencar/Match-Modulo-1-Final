@@ -1,0 +1,277 @@
+body{
+    background-color:#010326;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    color: #547BA8;
+    --cor-destaque: #CE70F5;
+    }
+    
+    .header {
+        width: 100%;
+        max-width: 900px;
+        padding: 8px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .header__link {
+        text-decoration: none;
+        box-sizing: : border-box;
+        padding: 4px;
+    }
+    
+    .header__link: :hover {
+        outline: none;
+        background-color: #4d4d4d;
+        border-radius: 5px;
+    }
+    
+    .icone {
+        width: 40px;
+        border-radius: 50%;
+    }
+    
+    .icone---texto {
+        margin: 0 8px;
+        animation: pulsar 2s infinite alternate;
+    }
+    
+    .main {
+        width: 100%;
+        max-width: 700px;
+        padding: 8px;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+    
+    .perfil {
+        width: 100%; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .perfil__foto {
+        width: 100%;
+        max-width: 100px;
+        border-radius: 50%;
+        border: 6px solid #868686;
+        align-items: center;
+    }
+    
+    .capa__bot {
+        width: 100%;
+        max-width: 200px;
+        border-radius: 25%;
+        border: 6px solid #868686;
+        }
+
+    .perfil__nome {
+        font-family: "Lato"; cursiva;
+        font-size: : 52px;
+        font-weight: 400;
+        color: var(--cor-destaque);
+        margin: 16px 0;
+    }
+    
+    .perfil__descricao1 {
+        font-size: 26px;
+        font-weight: 700;
+        margin: 16px 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .perfil__descricao2 {
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0;
+        width: 100%;
+        max-width: 350px;
+        text-align: center;
+    }
+
+    .comofizemos {
+        font-size: 16px;
+        font-weight: 400;
+        display: flex;
+        box-sizing: border-box;
+        border-radius: 8px;
+        background-color: rgb(44, 59, 85);
+        justify-content: center;
+        text-align:justify;
+        padding: 15px 15px;
+        margin: 16px 0;
+    }
+
+    .comofizemos__titulo {
+        font-size: 22px;
+        font-weight: bold;
+        color: var(--cor-destaque);
+        padding: 10px;
+        margin: 16px 0;
+        text-align: left;
+    }
+    
+    .section {
+        text-decoration: none;
+        padding: 8px;
+        width: 100%;
+        max-width: 350px;
+        margin: 24px auto;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;      
+    }
+    
+    .section__titulo {
+        font-size: 22px;
+        font-weight: bold;
+        color: var(--cor-destaque);
+        text-align: center;
+        display: flex;
+        align-items: left;
+        text-align: start;
+    }
+    
+    .projeto__1 {
+        background-color: #00078a;
+        padding: 16px;
+        margin: 16px;
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        border-radius: 8px;
+        box-shadow: 4px 4px 4px;
+        flex-direction: row;
+        height: 120px;
+        width: 170px;
+    }
+
+    .projeto__2 {
+        background-color: #00078a;
+        padding: 16px;
+        margin: 16px;
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        border-radius: 8px;
+        box-shadow: 4px 4px 4px;
+        flex-direction: row;
+        height: 120px;
+        width: 170px;
+    }
+    
+    .projeto__3 {
+        background-color: #00078a;
+        padding: 16px;
+        margin: 16px;
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        border-radius: 8px;
+        box-shadow: 4px 4px 4px;
+        flex-direction: row;
+        margin-bottom: 50px;
+        height: 120px;
+        width: 170px;
+    }
+    
+    .projeto__titulo {  
+        font-size: 14px;
+        font-weight: 400;
+        color:var(--cor-destaque);
+        margin: 8px 0;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        text-align: justify;
+    }
+    
+    .projeto__descricao {
+        font-size: 14px;
+        font-weight: 400;
+        text-decoration: none;
+        background-color: #547BA8;
+        color: aliceblue;
+        padding: 3px;
+        border: 3px solid blueviolet;
+        border-radius: 10px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+
+    .projeto__descricao:hover{
+        background-color: #CE70F5;
+        padding: 4px;
+        text-align: center;
+    }
+
+    hr {
+        box-sizing:border-box;
+        width:100%; 
+    }
+
+    .contato {
+        font-size: 17.5px;
+        font-weight: 400;
+        width: 100%;
+        max-width: 350px;
+        text-align: center;
+
+        text-decoration: none;
+        margin: 24px auto;
+        justify-content: end;
+        
+        margin-top: 40px;
+        margin-bottom: 55px;
+    }
+
+    .contato__titulo{
+        font-size: 26px;
+        font-weight: 700;
+        margin: 16px 0;
+        text-align: center;
+        width: 100%; 
+    }
+
+    .icone__whatsapp {
+        width: 10%;
+        border-radius: 20%;
+    }
+   
+    .footer {
+        weidth: 100%;
+        height: 55px;
+        background-color: var(--cor-destaque);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        flex-shrink: 0;
+    }
+
+    .footer__texto {
+        font-size: 14px;
+        font-weight: 400;
+        color: #313131;
+        display: flex;
+        align-items: center;
+    }
+    
+    @keyframes pulsar {
+     0% {
+        transform: scale(.8);
+     }
+    
+     100% {
+        transform: scale(1.2);
+     }
+    }
